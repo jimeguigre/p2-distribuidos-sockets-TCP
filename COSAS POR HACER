@@ -1,0 +1,4 @@
+el código de proxy_sock.c y servidor_sock.c son los códigos de paso de mensajes por colas
+hay que cmabiarlos a sockets
+
+app_cliente.c, calves.h y claves.c se dejan como están 
