@@ -5,9 +5,9 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <stdint.h>
 #include <netdb.h>
 #include "claves.h"
-#include <stdint.h>
 
 
 // FUNCIONES AUXILIARES: Enviar y recibir todo el buffer
