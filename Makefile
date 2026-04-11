@@ -67,3 +67,4 @@ pruebas/app_cliente_test_protocolo.o: pruebas/app_cliente_test_protocolo.c clave
 #LIMPIEZA
 clean:
 	rm -f *.o *.so app_cliente servidor app_cliente_test_duplicados resultado_cliente_*.txt app_cliente_test_carga resultado_carga_*.txt app_cliente_escritor app_cliente_lector app_cliente_test_protocolo
+	

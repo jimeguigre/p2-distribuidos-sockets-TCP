@@ -22,12 +22,6 @@ int main() {
 
     printf("--- INICIANDO PLAN DE PRUEBAS ---\n");
 
-    // inicializar el servicio: COMENTADO PARA PROBAR CONCURRENCIA, ASUMIENDO QUE EL SERVIDOR YA ESTÁ EN EJECUCIÓN
-    //if (destroy() == 0) {
-        //printf("Servicio inicializado/destruido con éxito.\n");
-    //} 
-
-
     // 1. Probar set_value con la clave única
     if (set_value(clave_unica, v1, n2, v2, v3) == 0) {
         printf("Cliente %d: Inserción de '%s' correcta.\n", getpid(), clave_unica);
