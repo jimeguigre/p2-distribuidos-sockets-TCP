@@ -1,5 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -fPIC
+
 #LDFLAGS: quitamos -lrt porque ya no usamos mqueue
 LDFLAGS_LOGICA = -L. -lclaves -lpthread -Wl,-rpath,.
 LDFLAGS_PROXY = -L. -lproxyclaves -Wl,-rpath,.
